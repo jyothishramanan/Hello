@@ -4,23 +4,26 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using ProductWebApp.Models;
-using ProductWebApp.Services;
+using ProductService.Services;
+using Common.Models;
+using Microsoft.AspNetCore.Cors;
 
 namespace ProductWebApp.Controllers
 {
     [ApiController]
     [Route("[controller]")]
+    //[EnableCors("EnableCORS")]
     public class ProductController : ControllerBase
     {
-        private readonly ProductService _producService;
+        private readonly ProductServices _producService;
  
-        public ProductController(ProductService productService)
+        public ProductController(ProductServices productService)
         {
             _producService = productService;
         }
 
         [HttpGet]
+        //[EnableCors("EnableCORS")]
         public ActionResult<List<Product>> Get()
         {
            return _producService.Get();

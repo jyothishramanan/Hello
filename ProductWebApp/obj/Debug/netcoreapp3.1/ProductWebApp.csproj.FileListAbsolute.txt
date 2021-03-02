@@ -62,3 +62,8 @@ F:\Allianz\BackEnd\ProductWebApp\ProductWebApp\obj\Debug\netcoreapp3.1\ProductWe
 F:\Allianz\BackEnd\ProductWebApp\ProductWebApp\obj\Debug\netcoreapp3.1\ProductWebApp.dll
 F:\Allianz\BackEnd\ProductWebApp\ProductWebApp\obj\Debug\netcoreapp3.1\ProductWebApp.pdb
 F:\Allianz\BackEnd\ProductWebApp\ProductWebApp\obj\Debug\netcoreapp3.1\ProductWebApp.genruntimeconfig.cache
+F:\Allianz\BackEnd\ProductWebApp\ProductWebApp\bin\Debug\netcoreapp3.1\ProductService.exe
+F:\Allianz\BackEnd\ProductWebApp\ProductWebApp\bin\Debug\netcoreapp3.1\Common.dll
+F:\Allianz\BackEnd\ProductWebApp\ProductWebApp\bin\Debug\netcoreapp3.1\ProductService.dll
+F:\Allianz\BackEnd\ProductWebApp\ProductWebApp\bin\Debug\netcoreapp3.1\Common.pdb
+F:\Allianz\BackEnd\ProductWebApp\ProductWebApp\bin\Debug\netcoreapp3.1\ProductService.pdb
